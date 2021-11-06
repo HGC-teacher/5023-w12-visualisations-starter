@@ -11,11 +11,11 @@
     </li>
     <li>
         <!-- TODO: Add a link for the route to show the books read per year by users -->
-        Books Read per Year by Users
+        <a href="{{ url_for('chart.books_per_year_chart') }}">Books Read per Year by Users</a>
     </li>
     <li>
         <!-- TODO: Add a link for the route to show the books per genre chart -->
-        Books per Genre
+        <a href="{{ url_for('chart.genre_books_chart') }}">Books per Genre</a>
     </li>
 </ul>
 {% endblock %}
